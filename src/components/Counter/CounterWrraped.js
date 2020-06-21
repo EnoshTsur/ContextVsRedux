@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function HomePage({ counter, increase, decrease, }) {
+export default function CounterWrraped({ counter, increase, decrease, }) {
 
     return (
         <div>
