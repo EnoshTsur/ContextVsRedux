@@ -1,6 +1,11 @@
-export function setUser(user) {
-    return {
-        type: 'SET_USER',
-        payload: user
-    }
+import { INCREMENT, DECREMENT, } from './events'
+
+function makeAction(type) {
+    return payload => ({
+        type,
+        payload
+    })
 }
+
+export const increase = makeAction(INCREMENT)
+export const decrease = makeAction(DECREMENT)

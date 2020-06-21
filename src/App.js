@@ -1,11 +1,13 @@
 import React from 'react';
-import HomePageContainer from './components/HomePage/HomePageContainer'
+import CounterContainer from './components/Counter/CounterContainer'
+import CounterHooks from './components/Counter/CounterHooks'
 
 function App() {
 
   return (
     <div>
-        <HomePageContainer/>
+        <CounterContainer/>
+        <CounterHooks />
    </div>
   );
 }
